@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { GifState } from "../context/Gif-context";
 import Gif from "../components/Gif";
-import FollowOn from "../components/follow-on";
+import FollowOn from "../components/Follow-on";
 
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { HiMiniChevronDown, HiMiniChevronUp, HiMiniHeart } from "react-icons/hi2";
