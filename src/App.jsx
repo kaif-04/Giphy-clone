@@ -2,11 +2,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import AppLayout from "./layouts/app-layout";
 import Home from "./pages/Home";
-import GifPage from "./pages/single-gif";
-import Favorites from "./pages/favorites";
-import Search from "./pages/search";
-import Category from "./pages/category";
-import GifProvider from "./context/gif-context";
+import GifPage from "./pages/Single-gif";
+import Favorites from "./pages/Favorites";
+import Search from "./pages/Search";
+import Category from "./pages/Category";
+import GifProvider from "./context/Gif-context";
 
 const router = createBrowserRouter([
   {
